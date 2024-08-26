@@ -10,6 +10,7 @@ spec:
     - name: COURSE 
       valueFrom:
         configMapKeyRef:
+        # course-config is from 07.config-map.yaml file metadata:
           name: course-config
           key: COURSE 
     - name: PERSON
