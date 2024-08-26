@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: environment-demo
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env: 
+    - name: robo-greeting
+      value: "Hello from the environment-demo"
+    - name: robo-farewell
+      value: "Bye from the environment-demo"
