@@ -8,7 +8,9 @@ spec:
     image: nginx
   - name: sidecar
     image: almalinux:8
-    
+    #almalinux will be available for 200 seconds to login to container
+    command: ["sleep", "200"]
+
     
   
 
