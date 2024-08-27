@@ -10,4 +10,4 @@ spec:
   - name: nginx-annotations
     image: nginx
     ports:
-    - containerPort: 80
+    - containerPort: 80 
