@@ -38,7 +38,7 @@ kind: Service
 metadata:
   name: nginx-stateless
 spec:
-  clusterIP: None #headless
+  clusterIP: None #you have to mention cluster ip should be none in headless
   selector:
     app: nginx-stateful
   ports:
